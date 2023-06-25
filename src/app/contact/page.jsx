@@ -2,6 +2,10 @@ import React from "react";
 import ContactComponent from "@/components/ContactComponent";
 import MasterLayout from "@/masterLayout/MasterLayout";
 
+export const metadata = {
+  title: "NetGrid || Contact",
+  description: "NetGrid - React Portfolio Template",
+};
 const ContactPage = () => {
   return (
     <MasterLayout>

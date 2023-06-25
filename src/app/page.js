@@ -1,10 +1,11 @@
-"use client";
-
-import React, { Suspense } from "react";
+import React from "react";
 import MasterLayout from "@/masterLayout/MasterLayout";
 import HomeComponent from "@/components/HomeComponent";
-import loading from "./loading";
 
+export const metadata = {
+  title: "NetGrid || Home",
+  description: "NetGrid - React Portfolio Template",
+};
 export default function HomePage() {
   return (
     <MasterLayout>
