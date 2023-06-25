@@ -1,8 +1,8 @@
 "use client";
+import React from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import {
   FaCommentAlt,
   FaEnvelope,
@@ -11,7 +11,10 @@ import {
   FaUserAlt,
 } from "react-icons/fa";
 import { MdDesignServices } from "react-icons/md";
+import { usePathname } from "next/navigation";
 const MasterLayout = (props) => {
+  const router = usePathname();
+  console.log(router);
   return (
     <>
       <div className="sidebar__section flex items-center justify-center">
@@ -28,16 +31,13 @@ const MasterLayout = (props) => {
           <nav className=" menu__section py-1 md:py-0 md:mt-4">
             <ul>
               <li>
-                <Link
-                  className={(navData) => (navData.isActive ? "active" : "")}
-                  href={"/"}
-                >
+                <Link className={router == "/" ? "active" : "ss"} href={"/"}>
                   <FaHome className="text-[20px] md:text-[16px]" />
                 </Link>
               </li>
               <li>
                 <Link
-                  className={(navData) => (navData.isActive ? "active" : "")}
+                  className={router == "/about" ? "active" : ""}
                   href={"/about"}
                 >
                   <FaUserAlt className="text-[20px] md:text-[16px]" />
@@ -45,7 +45,7 @@ const MasterLayout = (props) => {
               </li>
               <li>
                 <Link
-                  className={(navData) => (navData.isActive ? "active" : "")}
+                  className={router == "/services" ? "active" : ""}
                   href={"/services"}
                 >
                   <MdDesignServices className="text-[20px] md:text-[16px]" />
@@ -53,7 +53,7 @@ const MasterLayout = (props) => {
               </li>
               <li>
                 <Link
-                  className={(navData) => (navData.isActive ? "active" : "")}
+                  className={router == "/portfolio" ? "active" : ""}
                   href={"/portfolio"}
                 >
                   <FaThLarge className="text-[20px] md:text-[16px]" />
@@ -61,7 +61,7 @@ const MasterLayout = (props) => {
               </li>
               <li>
                 <Link
-                  className={(navData) => (navData.isActive ? "active" : "")}
+                  className={router == "/blog" ? "active" : ""}
                   href={"/blog"}
                 >
                   <FaCommentAlt className="text-[20px] md:text-[16px]" />
@@ -69,7 +69,7 @@ const MasterLayout = (props) => {
               </li>
               <li>
                 <Link
-                  className={(navData) => (navData.isActive ? "active" : "")}
+                  className={router == "/contact" ? "active" : ""}
                   href={"/contact"}
                 >
                   <FaEnvelope className="text-[20px] md:text-[16px]" />
