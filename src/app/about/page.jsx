@@ -2,12 +2,14 @@
 
 import React from "react";
 import MasterLayout from "@/masterLayout/MasterLayout";
-import HomeComponent from "@/components/HomeComponent";
+import AboutComponent from "@/components/AboutComponent";
 
-export default function HomePage() {
+const AboutPage = () => {
   return (
     <MasterLayout>
-      <HomeComponent />
+      <AboutComponent />
     </MasterLayout>
   );
-}
+};
+
+export default AboutPage;

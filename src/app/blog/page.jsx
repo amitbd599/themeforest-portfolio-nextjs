@@ -1,13 +1,13 @@
-"use client";
-
 import React from "react";
 import MasterLayout from "@/masterLayout/MasterLayout";
-import HomeComponent from "@/components/HomeComponent";
+import BlogComponent from "@/components/BlogComponent";
 
-export default function HomePage() {
+const BlogPage = () => {
   return (
     <MasterLayout>
-      <HomeComponent />
+      <BlogComponent />
     </MasterLayout>
   );
-}
+};
+
+export default BlogPage;

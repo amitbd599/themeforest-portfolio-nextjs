@@ -1,13 +1,13 @@
-"use client";
-
 import React from "react";
+import ServicesComponent from "@/components/ServicesComponent";
 import MasterLayout from "@/masterLayout/MasterLayout";
-import HomeComponent from "@/components/HomeComponent";
 
-export default function HomePage() {
+const page = () => {
   return (
     <MasterLayout>
-      <HomeComponent />
+      <ServicesComponent />
     </MasterLayout>
   );
-}
+};
+
+export default page;
