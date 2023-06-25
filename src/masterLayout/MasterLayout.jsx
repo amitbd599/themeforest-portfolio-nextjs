@@ -14,7 +14,6 @@ import { MdDesignServices } from "react-icons/md";
 import { usePathname } from "next/navigation";
 const MasterLayout = (props) => {
   const router = usePathname();
-  console.log(router);
   return (
     <>
       <div className="sidebar__section flex items-center justify-center">
