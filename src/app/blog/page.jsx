@@ -4,7 +4,7 @@ import BlogComponent from "@/components/BlogComponent";
 
 export const metadata = {
   title: "NetGrid || Blog",
-  description: "NetGrid - React Portfolio Template",
+  description: "NetGrid - Next JS Portfolio Template",
 };
 const BlogPage = () => {
   return (

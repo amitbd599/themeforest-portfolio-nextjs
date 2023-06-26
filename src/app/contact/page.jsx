@@ -4,7 +4,7 @@ import MasterLayout from "@/masterLayout/MasterLayout";
 
 export const metadata = {
   title: "NetGrid || Contact",
-  description: "NetGrid - React Portfolio Template",
+  description: "NetGrid - Next JS Portfolio Template",
 };
 const ContactPage = () => {
   return (

@@ -4,7 +4,7 @@ import HomeComponent from "@/components/HomeComponent";
 
 export const metadata = {
   title: "NetGrid || Home",
-  description: "NetGrid - React Portfolio Template",
+  description: "NetGrid - Next JS Portfolio Template",
 };
 export default function HomePage() {
   return (

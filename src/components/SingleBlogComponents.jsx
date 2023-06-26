@@ -18,7 +18,7 @@ const SingleBlogComponents = () => {
                     <img
                       className="w-full rounded-lg object-cover"
                       src="/Assets/Images/blog/blog_7.png"
-                      alt="NetGrid - React Portfolio Template"
+                      alt="NetGrid - Next JS Portfolio Template"
                     />
                   </LazyLoad>
 
@@ -159,7 +159,7 @@ const SingleBlogComponents = () => {
                         <img
                           className="h-full w-full rounded-md "
                           src="/Assets/Images/blog/blog_1.png"
-                          alt="NetGrid - React Portfolio Template"
+                          alt="NetGrid - Next JS Portfolio Template"
                         />
                       </LazyLoad>
                     </div>
@@ -181,7 +181,7 @@ const SingleBlogComponents = () => {
                         <img
                           className="h-full w-full rounded-md "
                           src="/Assets/Images/blog/blog_2.png"
-                          alt="NetGrid - React Portfolio Template"
+                          alt="NetGrid - Next JS Portfolio Template"
                         />
                       </LazyLoad>
                     </div>
@@ -204,7 +204,7 @@ const SingleBlogComponents = () => {
                         <img
                           className="h-full w-full rounded-md "
                           src="/Assets/Images/blog/blog_3.png"
-                          alt="NetGrid - React Portfolio Template"
+                          alt="NetGrid - Next JS Portfolio Template"
                         />
                       </LazyLoad>
                     </div>
@@ -227,7 +227,7 @@ const SingleBlogComponents = () => {
                         <img
                           className="h-full w-full rounded-md "
                           src="/Assets/Images/blog/blog_6.png"
-                          alt="NetGrid - React Portfolio Template"
+                          alt="NetGrid - Next JS Portfolio Template"
                         />
                       </LazyLoad>
                     </div>
@@ -249,7 +249,7 @@ const SingleBlogComponents = () => {
                         <img
                           className="h-full w-full rounded-md "
                           src="/Assets/Images/blog/blog_5.png"
-                          alt="NetGrid - React Portfolio Template"
+                          alt="NetGrid - Next JS Portfolio Template"
                         />
                       </LazyLoad>
                     </div>

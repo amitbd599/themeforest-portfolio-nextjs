@@ -1,30 +1,19 @@
+"use client";
 import React from "react";
+import TopBarProgress from "react-topbar-progress-indicator";
+TopBarProgress.config({
+  barColors: {
+    0: "#17B978",
+    0.5: "#17B978",
+    1: "#191D2B",
+  },
+  shadowBlur: 20,
+});
 
 const loading = () => {
   return (
-    <div className="loading-data">
-      <div className="radar-spinner">
-        <div className="circle">
-          <div className="circle-inner-container">
-            <div className="circle-inner" />
-          </div>
-        </div>
-        <div className="circle">
-          <div className="circle-inner-container">
-            <div className="circle-inner" />
-          </div>
-        </div>
-        <div className="circle">
-          <div className="circle-inner-container">
-            <div className="circle-inner" />
-          </div>
-        </div>
-        <div className="circle">
-          <div className="circle-inner-container">
-            <div className="circle-inner" />
-          </div>
-        </div>
-      </div>
+    <div>
+      <TopBarProgress />
     </div>
   );
 };

@@ -38,7 +38,7 @@ const AboutComponent = () => {
                         <img
                           className="h-48 w-full rounded-md object-cover md:h-full md:w-[250px]"
                           src="/Assets/Images/profile.png"
-                          alt="NetGrid - React Portfolio Template"
+                          alt="NetGrid - Next JS Portfolio Template"
                         />
                       </div>
 
@@ -47,7 +47,7 @@ const AboutComponent = () => {
                           <img
                             className="object-cover "
                             src="/Assets/Images/profile.png"
-                            alt="NetGrid - React Portfolio Template"
+                            alt="NetGrid - Next JS Portfolio Template"
                           />
                         </div>
                       </div>
@@ -226,7 +226,7 @@ const AboutComponent = () => {
                           <img
                             className="w-[50px]"
                             src="/Assets/Images/working.png"
-                            alt="NetGrid - React Portfolio Template"
+                            alt="NetGrid - Next JS Portfolio Template"
                           />
                         </div>
                         <h2 className="relative ml-3 text-[20px] font-semibold md:text-[26px]">
@@ -268,7 +268,7 @@ const AboutComponent = () => {
                           <img
                             className="w-[50px]"
                             src="/Assets/Images/college-graduation.png"
-                            alt="NetGrid - React Portfolio Template"
+                            alt="NetGrid - Next JS Portfolio Template"
                           />
                         </div>
                         <h2 className="relative ml-3 text-[20px] font-semibold md:text-[26px]">

@@ -65,7 +65,7 @@ const PortfolioComponent = () => {
                                 <LazyLoad>
                                   <img
                                     src={item.img}
-                                    alt="NetGrid - React Portfolio Template"
+                                    alt="NetGrid - Next JS Portfolio Template"
                                   />
                                 </LazyLoad>
                                 <div className="overflow__intro">
@@ -103,7 +103,7 @@ const PortfolioComponent = () => {
                                 <LazyLoad>
                                   <img
                                     src={item.img}
-                                    alt="NetGrid - React Portfolio Template"
+                                    alt="NetGrid - Next JS Portfolio Template"
                                   />
                                 </LazyLoad>
 
@@ -142,7 +142,7 @@ const PortfolioComponent = () => {
                                 <LazyLoad>
                                   <img
                                     src={item.img}
-                                    alt="NetGrid - React Portfolio Template"
+                                    alt="NetGrid - Next JS Portfolio Template"
                                   />
                                 </LazyLoad>
                                 <div className="overflow__intro">
@@ -180,7 +180,7 @@ const PortfolioComponent = () => {
                                 <LazyLoad>
                                   <img
                                     src={item.img}
-                                    alt="NetGrid - React Portfolio Template"
+                                    alt="NetGrid - Next JS Portfolio Template"
                                   />
                                 </LazyLoad>
                                 <div className="overflow__intro">
@@ -218,7 +218,7 @@ const PortfolioComponent = () => {
                                 <LazyLoad>
                                   <img
                                     src={item.img}
-                                    alt="NetGrid - React Portfolio Template"
+                                    alt="NetGrid - Next JS Portfolio Template"
                                   />
                                 </LazyLoad>
                                 <div className="overflow__intro">

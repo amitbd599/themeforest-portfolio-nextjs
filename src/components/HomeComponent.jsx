@@ -14,7 +14,7 @@ import Typed from "react-typed";
 
 export const metadata = {
   title: "NetGrid || Home",
-  description: "NetGrid - React Portfolio Template",
+  description: "NetGrid - Next JS Portfolio Template",
 };
 
 export default function HomeComponent() {
@@ -40,7 +40,7 @@ export default function HomeComponent() {
                           <Image
                             className="object-cover "
                             src={"/Assets/Images/profile.png"}
-                            alt="NetGrid - React Portfolio Template"
+                            alt="NetGrid - Next JS Portfolio Template"
                             width={500}
                             height={500}
                           />

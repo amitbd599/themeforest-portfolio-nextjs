@@ -37,7 +37,7 @@ const BlogComponent = () => {
                         <LazyLoad>
                           <img
                             src={item.img}
-                            alt="NetGrid - React Portfolio Template"
+                            alt="NetGrid - Next JS Portfolio Template"
                           />
                         </LazyLoad>
                         <div className="date absolute bottom-[22px] right-[10px]">

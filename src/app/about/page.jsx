@@ -4,7 +4,7 @@ import AboutComponent from "@/components/AboutComponent";
 
 export const metadata = {
   title: "NetGrid || About",
-  description: "NetGrid - React Portfolio Template",
+  description: "NetGrid - Next JS Portfolio Template",
 };
 const AboutPage = () => {
   return (
